@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 23)
+    (drawings 24)
     (tracks 231)
     (zones 0)
     (modules 20)
@@ -1053,6 +1053,7 @@
     )
   )
 
+  (gr_line (start 162.99434 90.61958) (end 162.63112 90.9828) (layer B.Mask) (width 0.0001) (tstamp 5ECC87D3))
   (gr_line (start 155.6 106.12) (end 155.6 107.62) (layer F.SilkS) (width 0.1) (tstamp 5ECB9FD0))
   (gr_line (start 140.6 106.12) (end 155.6 106.12) (layer F.SilkS) (width 0.1) (tstamp 5ECBA459))
   (gr_line (start 140.6 107.62) (end 140.6 106.12) (layer F.SilkS) (width 0.1) (tstamp 5ECBA37E))
@@ -1088,7 +1089,7 @@
   )
   (gr_line (start 118.1 90.62) (end 118.1 124.12) (layer Edge.Cuts) (width 0.15) (tstamp 5ECBA0FF))
   (gr_line (start 163 90.62) (end 118.1 90.62) (layer Edge.Cuts) (width 0.15) (tstamp 5ECB9F43))
-  (gr_line (start 163 124.12) (end 163 90.62) (layer Edge.Cuts) (width 0.15) (tstamp 5ECB9F40))
+  (gr_line (start 163 124.12) (end 163 90.62) (layer Edge.Cuts) (width 0.15) (tstamp 5ECC870A))
   (gr_line (start 118.1 124.12) (end 163 124.12) (layer Edge.Cuts) (width 0.15) (tstamp 5ECB9F3D))
 
   (via (at 160.1 94.87) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (tstamp 5ECB9FFD))
@@ -1334,7 +1335,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5ECC6B39) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5ECC85E6) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1406,7 +1407,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5ECC6B36) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5ECC85E3) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
